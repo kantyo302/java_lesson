@@ -8,7 +8,7 @@ public class Kadai1{
 		//↓生徒の各教科の点数と教科数で配列を整理する。
 		int[][] Students = {{92,89,98,99},{78,79,94,86},{95,98,89,87}};
 		String[] name = {"A","B","C"}; //配列maxStudentsは、文字データで三人の生徒のため、それぞれのデータを配列。
-		String[] subjects = {"英語","国語","数学","理科","全教科"};
+		String[] subjects = {"英語","国語","数学","理科"};
 
 		int testNumber = Students[0].length; //testNumber変数にStudents変数の教科数を取得し、代入。
 		
@@ -67,10 +67,7 @@ public class Kadai1{
 		System.out.println("クラスの全体の平均点は" + total_Average / Students.length+ "点です。");
 		System.out.println("------------------------------------------------");
 
-		String input1 = new java.util.Scanner(System.in).nextLine();
-
-		String input2 = new java.util.Scanner(System.in).nextLine();
-
+		
 		
 
 
